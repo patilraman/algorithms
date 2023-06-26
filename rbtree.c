@@ -1,7 +1,7 @@
 /*************************
 *  RED BLACK TREE 
 *
-*
+*  Algorithm from Introduction to algorithm 
 *************************/
 #include <stdio.h>
 #include <stdlib.h>

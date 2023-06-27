@@ -2,6 +2,7 @@
 *  RED BLACK TREE 
 *
 *  Algorithm from Introduction to algorithm 
+*  language; C
 *************************/
 #include <stdio.h>
 #include <stdlib.h>

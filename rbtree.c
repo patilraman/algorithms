@@ -3,6 +3,10 @@
 *
 *  Algorithm from Introduction to algorithm 
 *  language; C
+*  TODO:(1) Add CL parameters
+*       (2) Built-in Testcases
+*       (3) Menu Options for tests and input
+*       (4) More Automation
 *************************/
 #include <stdio.h>
 #include <stdlib.h>

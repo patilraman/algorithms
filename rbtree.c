@@ -165,6 +165,22 @@ bTree* Allocate()
 {
    return (bTree*)malloc(sizeof(bTree));
 }
+
+bTree* allocate()
+{
+   return malloc(sizeof(bTree));
+}
+
+void init(bTree*)
+{
+   bTree->parent = NULL;
+   bTree->left = NULL;
+   bTree->right = NULL;
+   bTree->clr= RED;
+   bTree->weight = 0;
+   bTree->value = 0; 
+}
+
 int main()
 {
   bTree *root,*left,*right;
@@ -199,5 +215,12 @@ int main()
   
   root->left->right = right;
 
- inorder_parse_tree(root);  
+ inorder_parse_tree(root); 
+
+ ///////
+   root = allocate();
+   if(NULL != root)
+   {
+      init(root);
+   }
 }
